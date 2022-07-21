@@ -277,3 +277,95 @@ footer {
 }
 
 /* CSS For Upcoming End */
+
+/* Tablet responsive */
+
+@media only screen and (max-width: 1023px) {
+    .container {
+        width: 880px;
+    }
+
+    .header {
+        padding: 80px 30px 0px 80px;
+        height: 440px;
+        align-items: normal;
+    }
+
+    .header_img img {
+        height: 420px;
+        margin-top: 20px;
+    }
+
+    .header_text h1 {
+        font-size: 43px;
+        line-height: 50px;
+    }
+
+    .blog-section {
+        justify-items: center;
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .side-nav {
+        grid-column: 2/6;
+        width: 880px;
+        background-color: #fff;
+        flex-direction: row;
+        height: 100px;
+    }
+
+    .side-nav a {
+        border: 1px solid #E8E8E8;
+    }
+
+    .rowleft {
+        grid-column: 2/4;
+    }
+
+    .rowright {
+        grid-column: 4/6;
+    }
+
+    .blog article {
+        width: 420px;
+    }
+
+    .blog-content img {
+        height: 236px;
+    }
+
+    .blogpaddingfix {
+        height: 445px;
+    }
+
+    .blog-icon img {
+        height: 30px;
+    }
+
+    .footer_section {
+        padding: 100px 0px;
+    }
+
+    .footer_links {
+        max-width: 730px;
+        margin: 50px 0px 50px 170px;
+    }
+
+    .footer_section hr {
+        width: 880px;
+    }
+
+    .blog article {
+        width: 400px;
+    }
+
+    .teams img {
+        height: 90px;
+    }
+}
+
+/* Tablet responsive End*/
